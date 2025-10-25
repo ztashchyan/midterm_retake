@@ -1,0 +1,19 @@
+name: recipe_explorer
+description: A simple Recipe Explorer Flutter app using BLoC.
+publish_to: 'none'
+
+environment:
+  sdk: '^3.9.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  shared_preferences: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
